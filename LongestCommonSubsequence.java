@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Subsequence {
+public class LongestCommonSubsequence {
     public static int subsequence(String s1, String s2, int n1, int n2){
         if (n1 == 0 || n2 == 0){
             return 0;
@@ -121,4 +121,5 @@ public class Subsequence {
         }
     }
 }
+
 
